@@ -30,13 +30,22 @@ The data includes 100 participants each evaluating 5 items. The participants are
 The field `comparison` has a value of 1 if the participant reports that they believe the first item is larger than the last item, and has a value of 2 if the participant reports that they believe the first item is smaller than the last item.
 
 
-## Code
+## Code for Experiments
 To replicate the experimental results reported in the paper (in Section 3), run the command
 ```
 python data_analysis.py
 ```
 
 The three functions `analyze_existence`, `analyze_relativity` and `analyze_conflict` perform the data analysis for the three experiments, respectively.
+
+## Code for Simulation
+To replicate the simulation results reported in the paper, run the command
+```
+python simulation.py
+```
+
+The two functions `simulate_err` and `simulate_err_per_item` run the simulation and plot the results in Figure 4 and Figure 5, respectively.
+
 
 
 ## Contact
