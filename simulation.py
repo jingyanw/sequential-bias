@@ -167,7 +167,7 @@ def simulate_err():
 	## Vary delta
 	deltas = [0.02, 0.05, 0.1, 0.2]
 	D = len(deltas)
-	n = 1000
+	n = 100
 	repeat = 1000
 
 	errs_insert_sf = np.zeros((D, repeat))

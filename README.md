@@ -1,6 +1,6 @@
 # Modeling and Correcting Bias in Sequential Evaluation
 
-This is the data collected for the paper "Modeling and Correcting Bias in Sequential Evaluation". The experiments conducted are approved by the IRB at Georgia Tech.
+This is the code and crowdsourcing data for the paper "Modeling and Correcting Bias in Sequential Evaluation" ([link](https://arxiv.org/abs/2205.01607)). The experiments conducted are approved by the IRB at Georgia Tech.
 
 The participants are recruited on the Prolific crowdsourcing platform, and are required to be based in the US. Additional de-identified meta-data collected for the experiments (including participants click and timing information, and free-form text responses) is available upon request.
 
@@ -46,7 +46,15 @@ python simulation.py
 
 The two functions `simulate_err` and `simulate_err_per_item` run the simulation and plot the results in Figure 4 and Figure 5, respectively.
 
-
+## Citation
+```
+@article{wang2022sequential,
+	author    = {Jingyan Wang and Ashwin Pananjady},
+	title     = {Modeling and Correcting Bias in Sequential Evaluation},
+	journal   = {arXiv preprint arXiv:2205.01607},
+	year      = {2022},
+}
+```
 
 ## Contact
 If you have any questions or feedback about the data, code or the paper, please contact Jingyan Wang (jingyanw@gatech.edu).
